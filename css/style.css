@@ -149,3 +149,29 @@ button {
 #course-content .module span {
     color: var(--azul-primario);
 }
+
+/* TRANSFORM-WORLD */
+
+#transform-world {
+    background-image: url(/assets/images/woman-code.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top 42%;
+    height: 33rem;
+    position: relative;
+}
+
+#transform-world p {
+    width: 18.25rem;
+    font-size: 2.8rem;
+    color: var(--branco);
+    font-weight: 900;
+    text-shadow: 3px 2px 0px var(--azul-primario);
+    position: absolute;
+    top: 35%;
+    left: 14%;
+    text-transform: lowercase;
+    box-sizing: border-box;
+    padding: 0 3px;
+    border: 1px solid red;
+}
