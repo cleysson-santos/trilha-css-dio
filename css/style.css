@@ -159,6 +159,8 @@ button {
     background-position: center top 42%;
     height: 33rem;
     position: relative;
+    border-top: 1px solid var(--azul-primario);
+    border-bottom: 1px solid var(--azul-primario);
 }
 
 #transform-world p {
@@ -174,3 +176,42 @@ button {
     box-sizing: border-box;
     padding: 0 3px;
 }
+
+/* PROFESSIONAL-CHALLENGES */
+
+#professional-challenges {
+    background-color: var(--preto);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50rem;
+    width: 51rem;
+    margin: auto;
+}
+
+#professional-challenges h2 {
+    color: var(--azul-primario);
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 6.08px;
+    text-transform: uppercase;
+    margin: 5rem 1rem 3rem;
+    text-align: center;
+    width: 56.625rem;
+}
+
+#professional-challenges img {
+    width: 41.1875rem;
+    height: 26.8125rem;
+    margin-bottom: 2rem;
+}
+
+#professional-challenges p {
+    color: var(--branco);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: .2px;
+    margin-top: 2rem;
+}
+
