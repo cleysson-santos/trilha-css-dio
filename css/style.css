@@ -143,6 +143,7 @@ button {
     width: 100%;
     text-align: center;
     background: #252525;
+    letter-spacing: .2px;
 }
 
 #course-content .module span {
