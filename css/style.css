@@ -215,3 +215,32 @@ button {
     margin-top: 2rem;
 }
 
+/* FOOTER */
+
+footer {
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0.00) 0%, rgba(51, 168, 219, 0.20) 99.99%, rgba(51, 168, 219, 0.20) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    height: 11.625rem;
+    border-top: 1px solid var(--azul-primario);
+}
+
+footer img {
+    margin-top: 2rem;
+}
+
+footer p {
+    color: var(--branco);
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--azul-primario);
+}
